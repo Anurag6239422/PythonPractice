@@ -46,3 +46,29 @@ for j in range (n+1) :
     else :
         print("*", end = '')
 print(end='\n')
+
+#*********************************************************************************************************************************************************************
+
+#Doing While Loop
+
+i = 0
+
+while i < 3 :
+    print(i)
+    print("Hello")
+
+    i += 1
+
+#Printing 0 and * using while loop
+
+n = int(input("Enter the number : "))
+i = 0
+
+while i < n :
+    if i % 2 == 0:
+        print("0", end = '')
+    else :
+        print("*", end = "")
+    
+    i += 1
+    print(end = "\n")
