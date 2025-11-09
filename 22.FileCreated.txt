@@ -1,0 +1,7 @@
+This file is use to learn create a file in File Handling using Python
+So, using write method to write in fileThank You!
+ My name is Anurag Sandilya
+ My name is Anurag Sandilya
+ My name is Anurag Sandilya
+ My name is Anurag Sandilya
+ My name is Anurag Sandilya
