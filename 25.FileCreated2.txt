@@ -1,2 +1,6 @@
-My Name is Anurag Sandliya
-I work in CoreCard as QA Engineer
+My name is AnuragI am a QA Engineer
+Today I am doing File Handling Assignment
+
+Ok
+
+Bye
