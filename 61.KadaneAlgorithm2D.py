@@ -12,6 +12,13 @@ def kadaneAlgorithm (givenNums) :
     n = len(givenNums)
 
     while end < n :
+        if current_sum + givenNums[end] > givenNums[end] :
+            current_sum += givenNums[end]
+        else :
+            current_sum = givenNums[end]
+
+        '''
+        Apart of If else we can use like this also :
         while current_sum < 0 :
             current_sum -= givenNums[start]
             start += 1
@@ -19,7 +26,10 @@ def kadaneAlgorithm (givenNums) :
         current_sum += givenNums[end]
         end += 1
 
+        '''
+
         max_sum = max(max_sum, current_sum)
+        end += 1
 
     return max_sum
 
@@ -32,7 +42,7 @@ m = len(matrix[0])
 ans = -sys.maxsize-1
 
 for i in range(m) :
-    temp = [0] *n
+    temp = [0] * n  #Reset the temp
     for j in range(n) :
         temp.append(matrix[j][i])
     
