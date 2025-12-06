@@ -59,4 +59,5 @@ for i in range (1, n):
             print("Minimum Jump : -1")
 
         step = updated_index - i
+
         
